@@ -1,4 +1,4 @@
-# product-review-skill
+# product-review
 
 产品评审技能公开版。
 
@@ -16,14 +16,14 @@
 ## 一键安装
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/voyagerwang/product-review-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/voyagerwang/voyagerwang-product-doc-review/main/install.sh | bash
 ```
 
 显式指定目标：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/voyagerwang/product-review-skill/main/install.sh | bash -s -- --target codex
-curl -fsSL https://raw.githubusercontent.com/voyagerwang/product-review-skill/main/install.sh | bash -s -- --target claude
+curl -fsSL https://raw.githubusercontent.com/voyagerwang/voyagerwang-product-doc-review/main/install.sh | bash -s -- --target codex
+curl -fsSL https://raw.githubusercontent.com/voyagerwang/voyagerwang-product-doc-review/main/install.sh | bash -s -- --target claude
 ```
 
 侧装测试，不覆盖现有同名技能：
@@ -55,7 +55,7 @@ $CODEX_HOME/skills/<skill-name>
 ## 仓库结构
 
 ```text
-product-review-skill/
+product-review/
 ├── README.md
 ├── install.sh
 ├── uninstall.sh
