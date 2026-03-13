@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品评审"
+  short_description: "系统化评审中后台、平台型、权限状态流转产品需求文档"
+  default_prompt: "Use $product-review to review this product requirement document for business goals, scope, permissions, state flows, edge cases, and delivery risk."
